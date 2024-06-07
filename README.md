@@ -283,7 +283,7 @@ Write-Host "All essential applications have been installed."
 
 ---
 
-## Quick Start Guides
+## Quick Reference Guides
 
 <details><summary>15. Microsoft 365 / Self-Service Password Reset </summary>
 
