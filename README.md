@@ -22,7 +22,7 @@
 
 <details><summary>03. How to Force 'Wi-Fi Calling' (on Android Phones) </summary>
 
-![Diagram](TeamViewer-RemotePhoneSupport.png)
+![Diagram](images/03_Force-Wi-Fi-Calling-onAndroid.png)
 
 </details>
 
@@ -32,7 +32,7 @@
 
 <details><summary>04. Setting Up TeamViewer - Remote Smartphone Support </summary>
 
-
+![Diagram](images/04_Setting-Up-TeamViewer-Phone-Support.png)
 
 </details>
 
@@ -42,7 +42,7 @@
 
 <details><summary>05. File Sharing on OneDrive - with Custom Permissions </summary>
 
-
+![Diagram](images/05_FileShare-on-OneDrive-with-Permissions.png)
 
 </details>
 
@@ -52,7 +52,7 @@
 
 <details><summary>06. Creating and Storing New Account Logins in Bitwarden </summary>
 
-
+![Diagram](images/06_Creating-New-Logins-in-Bitwarden.png)
 
 </details>
 
@@ -62,7 +62,7 @@
 
 <details><summary>07. Force Quit any Frozen App - on Windows </summary>
 
-
+![Diagram](images/07_ForceQuit-any-FrozenApp-onWindows.png)
 
 </details>
 
@@ -72,7 +72,9 @@
 
 <details><summary>08. Activating Krisp - for Microsoft Teams </summary>
 
+![Diagram](images/08_ActivatingKrisp-forMSTeams.png)
 
+![Diagram](images/GIF_ActivateKrisp.gif)
 
 </details>
 
@@ -82,7 +84,7 @@
 
 <details><summary>09. Installing/Configuring Krisp - for Microsoft Teams </summary>
 
-
+![Diagram](images/09_InstallConfigureKrisp-forMSTeams.png)
 
 </details>
 
@@ -92,7 +94,9 @@
 
 <details><summary>10. Where to Find Missing Emails in Outlook </summary>
 
+![Diagram](images/10_Find-Missing-Emails-inOutlook.png)
 
+![Diagram](images/GIF_OutlookFindEmails.gif)
 
 </details>
 
@@ -102,7 +106,9 @@
 
 <details><summary>11. Fixing Chrome's 'Content Not Showing' Issue </summary>
 
+![Diagram](images/11_FixingChrome-ContentNotShowing.png)
 
+![Diagram](images/IMG_JavaScriptBlocked.PNG)
 
 </details>
 
@@ -112,7 +118,9 @@
 
 <details><summary>12. Connecting to the Company VPN </summary>
 
+![Diagram](images/12_Connecting-to-the-CompanyVPN.png)
 
+![Diagram](images/GIF_Connect2VPN.gif)
 
 </details>
 
@@ -122,7 +130,23 @@
 
 <details><summary>13. Converting .exe files to .intunewin packages -script </summary>
 
+```powershell
+#Convert exe to intunewin | Win32 Content Prep Tool
+#Author: Sim Cmngs
 
+# Edit these variables to match your SETUP
+$IntuneWinAppUtilFolder = "C:\Intune\3-IntuneWinAppUtil" # REPLACE with Intune Win32 Content Prep Tool location 
+$SourceFolder = "C:\Intune\1-Krisp" # REPLACE with app setup file location 
+$SetupFile = "Krisp_2.33.5" # REPLACE with name of app setup file
+$OutputFolder = "C:\Intune\2-IntuneApps" # REPLACE with folder location to save IntuneWin file
+
+# Change Directory
+Set-Location -Path $IntuneWinAppUtilFolder
+
+# Run Intune Win32 Content prep tool with parameters
+& "$IntuneWinAppUtilFolder\IntuneWinAppUtil.exe" -c "$SourceFolder" -s "$SourceFolder\$SetupFile.exe" -o "$OutputFolder" -q
+```
+![Diagram](images/13_GIF_IntuneWinScript.gif)
 
 </details>
 
@@ -242,9 +266,13 @@ Write-Host "All essential applications have been installed."
 
 <details><summary>15. Self-Service Password Reset / Microsoft 365 Password Reset</summary>
 
-Setup Self-Service Password Reset (Microsoft 365)
+<ins>Setup Self-Service Password Reset (Microsoft 365)</ins>
 
-Resetting your Microsoft 365 Password - with SSPR Activated
+![Diagram](images/15a_Setup-SSPR-for-M365-account.png)
+
+<ins>Resetting your Microsoft 365 Password - with SSPR Activated</ins>
+
+![Diagram](images/15b_M365-PWReset-with-SSPR-activated.png)
 
 </details>
 
