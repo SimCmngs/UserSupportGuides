@@ -1,9 +1,12 @@
 # 15+ User Support Guides & Instructions
 
----
+*15 common IT issues that were resolved whilst managing a virtual help desk.* 
 
+> *(Bootcamp training experience included)*
+
+---
 > [!NOTE]
-> **Drop-down sections below** (^) - expand for more info.
+> **Drop-down sections below** - expand for more info.
 ---
 
 <details><summary>01. Using the Bitwarden Password Manager (Autofill Feature) </summary>
