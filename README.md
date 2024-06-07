@@ -2,7 +2,7 @@
 
 <details><summary>01. Using the Bitwarden Password Manager (Autofill Feature) </summary>
 
-
+https://github.com/SimCmngs/UserSupportGuides/assets/166608651/2174efd4-6a02-42ba-8e8e-48aa8344f66d
 
 </details>
 
@@ -12,7 +12,7 @@
 
 <details><summary>02. Using the Bitwarden Password Manager (Manual Prompts) </summary>
 
-
+https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44cd-8633-b69e6d2ac42e
 
 </details>
 
