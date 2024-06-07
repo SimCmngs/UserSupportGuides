@@ -305,13 +305,96 @@ Write-Host "All essential applications have been installed."
 
 <details><summary>16. Diagrams </summary>
 
-<ins>Setup Self-Service Password Reset `(Microsoft 365)`</ins>
+<ins>Automating Support Document Processes with `Scribe AI`</ins>
+
+![Diagram](images/IMG_AI-SupportDocs-Diagram.png)
+
+<ins>Deploying a Virtual Microphone Solution for `Microsoft Teams`</ins>
+
+![Diagram](images/IMG_KrispDeploy-Diagram.png)
+
+<ins>Virtual IT Infrastructure Network Diagram</ins>
+
+![Diagram](images/IMG_Virtual-Infra-Diagram2.png)
+
+```yaml
++---------------------------+
+|   Virtual Machine (VM)   |
+|      Configurations      |
++---------------------------+
 
 
++-------------------------------+  
+|        Domain Controller     |  
+| (Windows Server 2022)        |  
 
-<ins>Resetting your Microsoft 365 Password - with SSPR Activated</ins>
+| Hardware:                    | 
+| - 2 vCPUs                    |  
+| - 4GB RAM                    |  
+| - 80GB Disk                  |  
+
+| Software & Services:         |  
+| - Active Directory Domain    |  
+|   Services                   |  
+| - DNS Server                 | 
+| - DHCP Server                |  
++-------------------------------+  
 
 
++-------------------------------+  +-------------------------------+  +-------------------------------+
+|        File/Print Server     |  |           VPN Server         |  |      Endpoint Security      |
+| (Windows Server 2022)        |  | (Windows Server 2022)        |  | (Windows Server 2022)       |
+
+| Hardware:                    |  | Hardware:                    |  | Hardware:                   |
+| - 2 vCPUs                    |  | - 2 vCPUs                    |  | - 2 vCPUs                   |
+| - 4GB RAM                    |  | - 4GB RAM                    |  | - 4GB RAM                   |
+| - 100GB Disk (Expandable)    |  | - 80GB Disk                  |  | - 80GB Disk                 |
+
+| Software & Services:         |  | Software & Services:         |  | Software & Services:        |
+| - Distributed File System    |  | - IIS Web Server             |  | - Symantec Endpoint         |
+| - Backup & Restore           |  | - Remote Access              |  |   Protection                |
+| - Print and Document         |  | - Direct Access and VPN      |  |                             |
+|   Services                   |  |                              |  |                             |
++-------------------------------+  +-------------------------------+  +-------------------------------+
+
+
++-------------------------------+  
+|        Helpdesk PC           |  
+| (Windows 11)                 |  
+
+| Hardware:                    | 
+| - 2 vCPUs                    |  
+| - 8GB RAM                    |  
+| - 80GB Disk                  |  
+
+| Software & Services:         |  
+| - RSAT: Remote Admin Tools   |  
+| - TeamViewer                 |  
+| - Microsoft Support and      |
+|   Recovery Assistant         | 
+| - Visual Studio Code         |  
+| - Microsoft Office 365       |
++-------------------------------+  
+
+
++-------------------------------+  +-------------------------------+
+|    PC Client Workstations    |  |   MAC Client Workstation     |
+| (Windows 10/11)              |  | (macOS 13)                   |
+
+| Hardware:                    |  | Hardware:                    |
+| - 2 vCPUs                    |  | - 2 vCPUs                    |
+| - 8GB RAM                    |  | - 8GB RAM                    |
+| - 100GB Disk                 |  | - 120GB Disk                 |
+
+| Software & Services:         |  | Software & Services:         |
+| - Microsoft Office 365       |  | - Microsoft Office 365 (mac) |
+| - Various Multimedia         |  | - Adobe Creative Cloud       |
+|   Software                   |  | - Endpoint Protection        |
+| - Endpoint Protection        |  |                              |
++-------------------------------+  +-------------------------------+
+
+
+```
 
 </details>
 
