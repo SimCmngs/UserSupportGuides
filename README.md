@@ -1,13 +1,17 @@
 # 15+ User Support Guides & Instructions
 
-*15 common IT issues that were resolved whilst managing a virtual help desk.* 
+*A collection of over 15 user support guides and instructions designed to assist both end-users and IT support team:*
 
-> *(Bootcamp training experience included)*
+> - <ins>Video Tutorials</ins>: Step-by-step video guides, covering applications' key features.
+> - <ins>User Guides</ins>: Visual documentation to help users navigate software and systems effectively.
+> - <ins>Support Tickets/Instructional Guides</ins>: Templates and text-based guides for managing and resolving support requests.
+> - <ins>Technical Documentation</ins>: Scripts, diagrams, and technical instructions for IT support staff.
 
----
 > [!NOTE]
 > **Drop-down sections below** - expand for more info.
 ---
+
+## Video Tutorials
 
 <details><summary>01. Using the Bitwarden Password Manager (Autofill Feature) </summary>
 
@@ -28,6 +32,8 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 > video tutorial
 
 ---
+
+## User Guides
 
 <details><summary>03. How to Force 'Wi-Fi Calling' (on Android Phones) </summary>
 
@@ -78,6 +84,8 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 > quick reference guide
 
 ---
+
+## Support Tickets / Instructional Guides
 
 <details><summary>08. Activating Krisp - for Microsoft Teams </summary>
 
@@ -133,9 +141,11 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 </details>
 
-> troubleshooting instructions 
+> configuration instructions 
 
 ---
+
+## Technical Docs (Scripts)
 
 <details><summary>13. Converting .exe files to .intunewin packages -script </summary>
 
@@ -159,7 +169,7 @@ Set-Location -Path $IntuneWinAppUtilFolder
 
 </details>
 
-> support team PowerShell script 
+> support team- PowerShell script 
 
 ---
 
@@ -269,9 +279,11 @@ Write-Host "All essential applications have been installed."
 
 </details>
 
-> support team PowerShell script
+> support team- PowerShell scripts
 
 ---
+
+## Quick Start Guides
 
 <details><summary>15. Microsoft 365 / Self-Service Password Reset </summary>
 
@@ -285,4 +297,22 @@ Write-Host "All essential applications have been installed."
 
 </details>
 
-> quick reference guide 
+> quick reference guide
+
+---
+
+## Technical Docs (Diagrams)
+
+<details><summary>16. Diagrams </summary>
+
+<ins>Setup Self-Service Password Reset `(Microsoft 365)`</ins>
+
+
+
+<ins>Resetting your Microsoft 365 Password - with SSPR Activated</ins>
+
+
+
+</details>
+
+> diagrams 
