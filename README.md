@@ -159,7 +159,7 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 </details>
 
-> quick reference guide
+> quick reference guides
 
 ---
 
