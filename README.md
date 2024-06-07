@@ -1,4 +1,10 @@
-# UserSupportGuides
+# 15+ User Support Guides & Instructions
+
+---
+
+> [!NOTE]
+> **Drop-down sections below** (^) - expand for more info.
+---
 
 <details><summary>01. Using the Bitwarden Password Manager (Autofill Feature) </summary>
 
@@ -88,7 +94,7 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 </details>
 
-> support team instructions (internal ticket note)
+> support team instructions 
 
 ---
 
@@ -100,7 +106,7 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 </details>
 
-> troubleshooting instructions (user support ticket)
+> troubleshooting instructions
 
 ---
 
@@ -112,7 +118,7 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 </details>
 
-> troubleshooting instructions (user support ticket)
+> troubleshooting instructions 
 
 ---
 
@@ -124,7 +130,7 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 </details>
 
-> troubleshooting instructions (user support ticket)
+> troubleshooting instructions 
 
 ---
 
@@ -150,13 +156,13 @@ Set-Location -Path $IntuneWinAppUtilFolder
 
 </details>
 
-> support team PowerShell script (+ demonstration)
+> support team PowerShell script 
 
 ---
 
-<details><summary>14. Software installs for new PCs -script </summary>
+<details><summary>14. Software installs for new PCs -scripts </summary>
 
-<ins>Setup new windows device (Winget)</ins>
+<ins>Setup new windows device `(Winget)`</ins>
 
 ```powershell
 #Install Winget - Windows Package Manager
@@ -177,7 +183,7 @@ Add-AppxPackage $latestWingetMsixBundle
 
 ```
 
-<ins>Setup new windows device (App installs) </ins>
+<ins>Setup new windows device `(App installs)` </ins>
 
 ```powershell
 #Automate installation of essential applications | Winget
@@ -264,9 +270,9 @@ Write-Host "All essential applications have been installed."
 
 ---
 
-<details><summary>15. Self-Service Password Reset / Microsoft 365 Password Reset</summary>
+<details><summary>15. Microsoft 365 / Self-Service Password Reset </summary>
 
-<ins>Setup Self-Service Password Reset (Microsoft 365)</ins>
+<ins>Setup Self-Service Password Reset `(Microsoft 365)`</ins>
 
 ![Diagram](images/15a_Setup-SSPR-for-M365-account.png)
 
