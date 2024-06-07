@@ -45,13 +45,13 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 ---
 
-<details><summary>04. Setting Up TeamViewer - Remote Smartphone Support </summary>
+<details><summary>04. Setting Up TeamViewer - Remote Phone Support </summary>
 
 ![Diagram](images/04_Setting-Up-TeamViewer-Phone-Support.png)
 
 </details>
 
-> quick reference guide
+> user/support team guide
 
 ---
 
@@ -141,13 +141,31 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44c
 
 </details>
 
-> configuration instructions 
+> configuration instructions
+
+---
+
+## Quick References
+
+<details><summary>13. Microsoft 365 / Self-Service Password Reset </summary>
+
+<ins>Setup Self-Service Password Reset `(Microsoft 365)`</ins>
+
+![Diagram](images/15a_Setup-SSPR-for-M365-account.png)
+
+<ins>Resetting your Microsoft 365 Password - with SSPR Activated</ins>
+
+![Diagram](images/15b_M365-PWReset-with-SSPR-activated.png)
+
+</details>
+
+> quick reference guide
 
 ---
 
 ## Technical Docs (Scripts)
 
-<details><summary>13. Converting .exe files to .intunewin packages -script </summary>
+<details><summary>14. Converting .exe files to .intunewin packages -script </summary>
 
 ```powershell
 #Convert exe to intunewin | Win32 Content Prep Tool
@@ -173,7 +191,7 @@ Set-Location -Path $IntuneWinAppUtilFolder
 
 ---
 
-<details><summary>14. Software installs for new PCs -scripts </summary>
+<details><summary>15. Software installs for new PCs -scripts </summary>
 
 <ins>Setup new windows device `(Winget)`</ins>
 
@@ -283,24 +301,6 @@ Write-Host "All essential applications have been installed."
 
 ---
 
-## Quick Reference Guides
-
-<details><summary>15. Microsoft 365 / Self-Service Password Reset </summary>
-
-<ins>Setup Self-Service Password Reset `(Microsoft 365)`</ins>
-
-![Diagram](images/15a_Setup-SSPR-for-M365-account.png)
-
-<ins>Resetting your Microsoft 365 Password - with SSPR Activated</ins>
-
-![Diagram](images/15b_M365-PWReset-with-SSPR-activated.png)
-
-</details>
-
-> quick reference guide
-
----
-
 ## Technical Docs (Diagrams)
 
 <details><summary>16. Diagrams </summary>
@@ -313,9 +313,11 @@ Write-Host "All essential applications have been installed."
 
 ![Diagram](images/IMG_KrispDeploy-Diagram.png)
 
-<ins>Virtual IT Infrastructure Network Diagram</ins>
+<ins>Virtual IT Infrastructure Network Diagrams</ins>
 
 ![Diagram](images/IMG_Virtual-Infra-Diagram2.png)
+
+![Diagram](images/IMG_v_Infra-Network-Diagram.png)
 
 ```yaml
 +---------------------------+
