@@ -17,6 +17,8 @@
 
 https://github.com/SimCmngs/UserSupportGuides/assets/166608651/2174efd4-6a02-42ba-8e8e-48aa8344f66d
 
+> **Videos:** *No audio due to GitHub's upload size limitations.*
+
 </details>
 
 > video tutorial
@@ -26,6 +28,8 @@ https://github.com/SimCmngs/UserSupportGuides/assets/166608651/2174efd4-6a02-42b
 <details><summary>02. Using the Bitwarden Password Manager (Manual Prompts) </summary>
 
 https://github.com/SimCmngs/UserSupportGuides/assets/166608651/47a662ee-4c21-44cd-8633-b69e6d2ac42e
+
+> **Videos:** *No audio due to GitHub's upload size limitations.*
 
 </details>
 
