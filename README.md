@@ -8,7 +8,7 @@
 > - <ins>Technical Documentation</ins>: Scripts, diagrams, and technical instructions for IT support staff.
 
 > [!NOTE]
-> **Drop-down sections below** - expand for more info.
+> **Drop-down sections below** - expand to see support guides.
 ---
 
 ## Video Tutorials
