@@ -224,22 +224,16 @@ Add-AppxPackage $latestWingetMsixBundle
 #Automate installation of essential applications | Winget
 #Author: Sim Cmngs
 
-# Function to install an application using Winget
+# Function to install apps using Winget
 function Install-App {
-    param (
-        [string]$appName
-    )
-    
-    Write-Host "Installing $appName..."
+    param ([string]$appName)
     try {
         winget install --id=$appName --silent --accept-package-agreements --accept-source-agreements
-        Write-Host "$appName installed successfully."
     } catch {
         Write-Host "Failed to install $appName. Error: $_" -ForegroundColor Red
     }
 }
 
-# List of essential apps to install (edit list if needed)
 $applications = @(
     # Web Browsers
     "Google.Chrome",
@@ -296,6 +290,7 @@ foreach ($app in $applications) {
 }
 
 Write-Host "All essential applications have been installed."
+
 
 ```
 
